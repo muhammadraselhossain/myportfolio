@@ -1,0 +1,323 @@
+body{
+    font-family: 'Fascinate', cursive;
+    font-family: 'Nuosu SIL', serif;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.header-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background: black;
+    color: white;
+    padding:0 10%;
+}
+.header-section .logo{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+.header-section a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.header-section li{
+    list-style: none;
+    padding:10px 15px;
+}
+#list-border{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(white,salmon);
+    border-image-slice: 1;
+}
+.header-section ul{
+    display: flex;
+    align-items: center;
+}
+.top-section{
+    height: 500px;
+    background: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10% ;
+    padding-right: 10%;
+    
+
+        
+}
+.career-section{
+    height: 500px;
+    background: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+
+
+.half-width{
+    width:40%;
+    text-align: justify;
+
+}
+.half-width img{
+    width:100%;
+    height: 100%;
+ 
+ }
+ .half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,tomato,salmon);
+    color: white;
+    padding:10px 25px 10px 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+ 
+ }
+h1 .top-name-color{
+    color:salmon;
+    font-size:32px;
+}
+h1{
+    font-size:36px;
+}
+
+/*Experience Section Start*/
+.experience-division{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    
+}
+.experience-section{
+    height: 500px;
+    background: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    padding:30px 10% 30px 10%;
+    width: 100%;
+    background-position: left;
+    overflow: hidden;
+
+}
+.experience-section .experience{
+    font-size: 32px;
+    text-align: center;
+}
+/*.experience-section h2{
+    margin-bottom:30px;
+    
+}*/
+.experience-text-color{
+    color:salmon;
+}
+
+.experience-div{
+    width:40%;
+    letter-spacing: 3px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 80%; 
+    font-size: 16px;
+    color:black;
+    text-align: center;
+    padding:5% 10px 5% 10px
+}
+.experience-div p{
+    text-align: justify;
+    margin-top: 10px;
+}
+#border1{
+    border-left: 5px solid ;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#border2{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+
+.experience-div h2{
+    margin-bottom: 10px;
+}
+
+/*Experience Section End*/
+
+/*Work Section Start*/
+.work-section{    
+    height: 500px;
+    width:100%;
+    padding-left: 5% ;
+    padding-right: 5%;
+}
+.work-section h2{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.work-division{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width:100%;
+    height:100%;
+
+}
+
+.work-width{
+    width:30%;
+    height:80%;
+
+}
+.work-width img{
+   height: 100%;
+   width: 100%;
+
+}
+/*Work Section End*/
+/*Review Section End start*/
+.review-section{
+    height:300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 30px;
+
+}
+.review-div{
+    background-color: seashell;
+    padding:30px 80px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px gray;
+}
+.review-section h2{
+    margin-bottom: 20px;
+    font-size: 32px;
+    background: -webkit-linear-gradient(180deg,blue, cyan);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*Review Section End*/
+/*Mail Section End start*/
+.mail-section{
+    width:100%;
+    height:150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail-div{
+    text-align: center;
+    width:100%;
+    padding:30px 80px;
+    background-color: salmon;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/*Mail Section End*/
+/*contact form section start*/
+.form-section{
+    width: 100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px 0;
+    
+   
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+    padding:20px 15px;
+    height: 90%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    
+}
+.form-area{
+    margin-bottom: 25px;
+    position: relative;
+    
+}
+input,textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #000;
+    background:transparent;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 10px;
+    
+    
+}
+label{
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding:10px;
+    cursor: text;
+    color:#000;
+    transition: 0.2s;;
+}
+button{
+    padding:10px 5px;
+    background:salmon;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top:-30px;
+    font-size: 14px;
+}
+.name-phone{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-phone .form-area{
+    flex-basis: 48%;
+}
+/*contact form Section End*/
+.footer-section{
+    width: 100%;
+    height:300px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    padding:60px;
+    justify-content: space-between;
+}
